@@ -1,0 +1,438 @@
+{
+  "Chicken and Mushroom Risotto": {
+    "ingredients": {
+      "White Onion": 1,
+      "Garlic": 1,
+      "Peas": 1,
+      "Spinach": 1,
+      "Chestnut Mushrooms": 1,
+      "Chicken Stock": 1,
+      "White Wine": 1,
+      "Arborio Rice": 1,
+      "Chicken Breast": 2
+    }
+  },
+  "Butternut Squash and Bacon Risotto": {
+    "ingredients": {
+      "White Onion": 1,
+      "Garlic": 1,
+      "Peas": 1,
+      "Butternut Squash": 1,
+      "Bacon": 1,
+      "Veg Stock": 1,
+      "White Wine": 1,
+      "Arborio Rice": 1
+    }
+  },
+  "Cottage Pie": {
+    "ingredients": {
+      "White Onion": 1,
+      "Carrot": 2,
+      "Celery": 1,
+      "Garlic": 1,
+      "Tinned Tomatoes": 1,
+      "Tomato Puree": 1,
+      "Red Wine": 1,
+      "Potatoes": 2,
+      "Mince": 1,
+      "Cheddar Cheese": 1
+    }
+  },
+  "Fajitas": {
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Red Pepper": 1,
+      "Chicken Fajita Mix": 1,
+      "Red Onion": 1,
+      "Garlic": 1,
+      "Avocado": 1,
+      "Salsa": 1,
+      "Sour Cream": 1,
+      "Wraps": 1,
+      "Cheddar Cheese": 1,
+      "Nachos/Doritos": 1
+    }
+  },
+  "Chicken Tacos": {
+    "ingredients": {
+      "Taco Mix": 1,
+      "Chicken Breast": 2,
+      "Lime": 1,
+      "Coriander": 1,
+      "Salsa": 1,
+      "Spring Onion": 1,
+      "Taco Shells": 1,
+      "Sour Cream": 1,
+      "Avocado": 1,
+      "Cheddar Cheese": 1
+    }
+  },
+  "Mince Tacos": {
+    "ingredients": {
+      "BBQ Taco Mix": 1,
+      "Mince": 1,
+      "Salsa": 1,
+      "Spring Onion": 1,
+      "Taco Shells": 1,
+      "Sour Cream": 1,
+      "Avocado": 1,
+      "Cheddar Cheese": 1
+    }
+  },
+  "Mediterranean Chickpea Couscous": {
+    "ingredients": {
+      "Courgette": 1,
+      "Thyme": 1,
+      "Red Pepper": 1,
+      "Garlic": 1,
+      "Paprika": 1,
+      "Veg Stock": 1,
+      "Lemon": 1,
+      "Baby Tomatoes": 1,
+      "Spring Onion": 1,
+      "Chickpeas": 1,
+      "Couscous": 1,
+      "Feta": 1,
+      "Tzatziki": 1
+    }
+  },
+  "Slow Cooker Harissa": {
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Parsnip": 1,
+      "Carrot": 1,
+      "Red Onion": 1,
+      "Harissa Spice": 1,
+      "Oregano": 1,
+      "Honey": 1,
+      "Chopped Tomatoes": 1,
+      "Butter Beans": 1,
+      "Veg Stock": 1,
+      "Tomato Puree": 1,
+      "Kale": 1,
+      "Black Pepper": 1,
+      "Tzatziki": 1,
+      "Basmati Rice": 1
+    }
+  },
+  "Street Cart-Style Chicken Bowls": {
+    "ingredients": {
+      "Turmeric": 1,
+      "Chicken Stock": 1,
+      "Lemon": 1,
+      "Sour Cream": 1,
+      "Garlic Powder": 1,
+      "Shawarma Spice": 1,
+      "Basmati Rice": 1,
+      "Spring Onion": 1,
+      "Baby Tomatoes": 1,
+      "Mayo": 1,
+      "Chicken Breast": 2,
+      "Brown Pittas": 1
+    }
+  },
+  "Chicken Orzo Soup": {
+    "ingredients": {
+      "Olive Oil": 1,
+      "Chicken Breast": 2,
+      "Dried Oregano": 1,
+      "Dried Basil": 1,
+      "Dried Parsley": 1,
+      "Mustard Powder": 1,
+      "Dried Dill": 1,
+      "White Wine": 1,
+      "White Onion": 1,
+      "Carrot": 2,
+      "Celery": 1,
+      "Garlic": 1,
+      "Chicken Stock": 1,
+      "Worcestershire Sauce": 1,
+      "Double Cream": 1,
+      "Spinach": 1,
+      "Parmesan Cheese": 1,
+      "Lemon": 1,
+      "Orzo": 1
+    }
+  },
+  "Caribbean Chicken Bowl": {
+    "ingredients": {
+      "Lime": 1,
+      "Garlic": 1,
+      "Coriander": 1,
+      "Spring Onion": 1,
+      "Chicken Breast": 2,
+      "Basmati Rice": 1,
+      "Mango Chutney": 1,
+      "Black Beans": 1,
+      "Jerk Seasoning": 1,
+      "Sweetcorn": 1
+    }
+  },
+  "Tandoori Stack": {
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Sweet Chilli Sauce": 1,
+      "Sweet Potato Fries": 1,
+      "Red Onion": 1,
+      "Coriander": 1,
+      "Mint": 1,
+      "Naan": 2,
+      "Tomato": 2,
+      "Tomato Puree": 1,
+      "Nigella Seeds": 1,
+      "Lettuce": 1,
+      "Greek Yoghurt": 2,
+      "Cider Vinegar": 1,
+      "Tandoori Spice": 1
+    }
+  },
+  "Broccoli Rigatoni": {
+    "ingredients": {
+      "Broccoli": 1,
+      "Lemon": 1,
+      "Garlic": 1,
+      "Creme Fraiche": 1,
+      "Hard Cheese": 1,
+      "Rigatoni": 1,
+      "Veg Stock": 1,
+      "Chilli Flakes": 1,
+      "Panko Breadcrumbs": 1,
+      "Peas": 1
+    }
+  },
+  "Boursin Pasta": {
+    "ingredients": {
+      "Baby Tomatoes": 1,
+      "Linguini": 1,
+      "Boursin": 1,
+      "Mushrooms": 1,
+      "Spinach": 1,
+      "Dried Basil": 1,
+      "Dried Oregano": 1,
+      "Garlic": 1,
+      "Olive Oil": 1
+    }
+  },
+  "Roast Dinner": {
+    "ingredients": {
+      "Roast Chicken Crown": 1,
+      "Potatoes": 2,
+      "Carrot": 2,
+      "Broccoli": 1,
+      "Gravy Granules": 1,
+      "Olive Oil": 1,
+      "Rosemary": 1,
+      "Thyme": 1,
+      "Yorkshire Puddings": 1
+    }
+  },
+  "Slow Cooker Chilli": {
+    "ingredients": {
+      "Chilli Mix": 1,
+      "Mince": 1,
+      "Nachos/Doritos": 1,
+      "Red Pepper": 1,
+      "Red Onion": 1,
+      "Dark Chocolate": 1,
+      "Tinned Tomatoes": 1,
+      "Tomato Puree": 1,
+      "Basmati Rice": 1,
+      "Red Kidney Beans": 1,
+      "Sour Cream": 1
+    }
+  },
+  "Filled Pasta": {
+    "ingredients": {
+      "Filled Pasta": 1,
+      "Sauce": 1
+    }
+  },
+  "Pizza and Garlic Bread": {
+    "ingredients": {
+      "Pizza": 1,
+      "Garlic Bread": 1
+    }
+  },
+  "Chicken Pasta Bake": {
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Pasta Sauce": 1,
+      "Courgette": 1,
+      "Red Pepper": 1,
+      "Red Onion": 1,
+      "Sweetcorn": 1,
+      "Peas": 1,
+      "Cheddar Cheese": 1,
+      "Any Pasta": 1
+    }
+  },
+  "Mexican Pilaf": {
+    "ingredients": {
+      "Basmati Rice": 1,
+      "Garlic": 1,
+      "Yellow Pepper": 1,
+      "Mince": 1,
+      "Tomato Puree": 1,
+      "Cumin": 1,
+      "Chicken Stock": 1,
+      "Chipotle Paste": 1,
+      "Sour Cream": 1
+    }
+  },
+  "Leon Style Chicken Rice": {
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Brown Rice": 1,
+      "Pomegranate Seeds": 1,
+      "Mint": 1,
+      "Parsley": 1,
+      "Leon Aioli": 1,
+      "Red Cabbage": 1,
+      "Carrot": 1
+    }
+  },
+  "Dippy Eggs and Hoops": {
+    "ingredients": {
+      "Eggs": 1,
+      "Bread": 1,
+      "Spaghetti Hoops": 1
+    }
+  },
+  "Dippy Eggs and Beans": {
+    "ingredients": {
+      "Eggs": 1,
+      "Bread": 1,
+      "Beans": 1
+    }
+  },
+  "Amy Lunch": {
+    "ingredients": {
+      "Box Salad": 1,
+      "Cooked Chicken": 1
+    }
+  },
+  "Overnight Oats 1 Weeks Worth": {
+    "ingredients": {
+      "Full Fat Greek Yoghurt": 3,
+      "Berries": 1,
+      "Honey": 1,
+      "Oats": 1
+    }
+  },
+  "Staples": {
+    "ingredients": {
+      "Bananas": 8,
+      "Yoghurts Amy": 1,
+      "Yoghurts Sam": 1,
+      "Semi Skimmed Milk": 3,
+      "Cereal Bars": 1,
+      "Jacket Potatoes": 1
+    }
+  },
+  "Quorn Pittas": {
+    "ingredients": {
+      "Pittas": 1,
+      "Cucumber": 1,
+      "Lettuce": 1,
+      "Baby Tomatoes": 1,
+      "Red Pepper": 1,
+      "Sweetcorn": 1,
+      "Quorn Pieces": 1,
+      "Mayo": 1
+    }
+  },
+  "Chicken Sweetcorn Soup": {
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Sweetcorn": 4,
+      "Garlic and Ginger Paste": 1,
+      "Chicken Stock": 1,
+      "Sesame Oil": 1,
+      "Light Soy Sauce": 1,
+      "Spring Rolls": 1
+    }
+  },
+  "Tofu Stir Fry": {
+    "ingredients": {
+      "Tofu": 1,
+      "Stir Fry Noodles": 1,
+      "Stir Fry Veg": 1,
+      "Stir Fry Sauce": 1
+    }
+  },
+  "Sweet and Sour Tofu": {
+    "ingredients": {
+      "Tofu": 1,
+      "Ketchup": 1,
+      "Sugar": 1,
+      "Tinned Pineapple": 1,
+      "Red Pepper": 1,
+      "Red Onion": 1,
+      "Sesame Seeds": 1,
+      "Spring Onion": 1,
+      "Basmati Rice": 1,
+      "Soy Sauce": 1,
+      "Garlic Powder": 1,
+      "White Wine Vinegar": 1
+    }
+  },
+  "Chicken Salad": {
+    "ingredients": {
+      "Cucumber": 1,
+      "Lettuce": 1,
+      "Baby Tomatoes": 1,
+      "Red Pepper": 1,
+      "Sweetcorn": 1,
+      "Cooked Chicken": 1,
+      "Salad Topper": 1,
+      "Hummus": 1
+    }
+  },
+  "Pancakes": {
+    "ingredients": {
+      "Semi Skimmed Milk": 1,
+      "Eggs": 1,
+      "Plain Flour": 1,
+      "Chocolate Spread": 1,
+      "Jiffy Lemon": 1,
+      "Sugar": 1
+    }
+  },
+  "Thai Green Curry": {
+    "ingredients": {
+      "Basmati Rice": 1,
+      "Garlic": 1,
+      "Yellow Pepper": 1,
+      "Green Beans": 1,
+      "Baby Corn": 1,
+      "Tinned Pineapple": 1,
+      "Thai Green Curry Paste": 1,
+      "Coconut Milk": 1,
+      "Ginger": 1,
+      "Chicken Breast": 2
+    }
+  },
+  "Korma": {
+    "ingredients": {
+      "Basmati Rice": 1,
+      "Garlic": 1,
+      "White Onion": 1,
+      "Korma Paste": 1,
+      "Coconut Milk": 1,
+      "Ginger": 1,
+      "Chicken Breast": 2,
+      "Naan Breads": 2,
+      "Mango Chutney": 1,
+      "Raita": 1,
+      "Popadoms": 1
+    }
+  },
+  "Protein Balls": {
+    "ingredients": {
+      "Cashew Butter": 1,
+      "Honey": 1,
+      "Oats": 1,
+      "Protein Powder": 1
+    }
+  }
+}
