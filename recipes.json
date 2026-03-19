@@ -1,5 +1,6 @@
 {
   "Chicken and Mushroom Risotto": {
+    "user": "Amy",
     "ingredients": {
       "White Onion": 1,
       "Garlic": 1,
@@ -13,6 +14,7 @@
     }
   },
   "Butternut Squash and Bacon Risotto": {
+    "user": "Amy",
     "ingredients": {
       "White Onion": 1,
       "Garlic": 1,
@@ -25,6 +27,7 @@
     }
   },
   "Cottage Pie": {
+    "user": "Amy",
     "ingredients": {
       "White Onion": 1,
       "Carrot": 2,
@@ -39,6 +42,7 @@
     }
   },
   "Fajitas": {
+    "user": "Amy",
     "ingredients": {
       "Chicken Breast": 2,
       "Red Pepper": 1,
@@ -54,6 +58,7 @@
     }
   },
   "Chicken Tacos": {
+    "user": "Amy",
     "ingredients": {
       "Taco Mix": 1,
       "Chicken Breast": 2,
@@ -68,6 +73,7 @@
     }
   },
   "Mince Tacos": {
+    "user": "Amy",
     "ingredients": {
       "BBQ Taco Mix": 1,
       "Mince": 1,
@@ -80,6 +86,7 @@
     }
   },
   "Mediterranean Chickpea Couscous": {
+    "user": "Amy",
     "ingredients": {
       "Courgette": 1,
       "Thyme": 1,
@@ -97,6 +104,7 @@
     }
   },
   "Slow Cooker Harissa": {
+    "user": "Amy",
     "ingredients": {
       "Chicken Breast": 2,
       "Parsnip": 1,
@@ -116,6 +124,7 @@
     }
   },
   "Street Cart-Style Chicken Bowls": {
+    "user": "Amy",
     "ingredients": {
       "Turmeric": 1,
       "Chicken Stock": 1,
@@ -132,6 +141,7 @@
     }
   },
   "Chicken Orzo Soup": {
+    "user": "Amy",
     "ingredients": {
       "Olive Oil": 1,
       "Chicken Breast": 2,
@@ -155,6 +165,7 @@
     }
   },
   "Caribbean Chicken Bowl": {
+    "user": "Amy",
     "ingredients": {
       "Lime": 1,
       "Garlic": 1,
@@ -169,6 +180,7 @@
     }
   },
   "Tandoori Stack": {
+    "user": "Amy",
     "ingredients": {
       "Chicken Breast": 2,
       "Sweet Chilli Sauce": 1,
@@ -187,6 +199,7 @@
     }
   },
   "Broccoli Rigatoni": {
+    "user": "Amy",
     "ingredients": {
       "Broccoli": 1,
       "Lemon": 1,
@@ -201,6 +214,7 @@
     }
   },
   "Boursin Pasta": {
+    "user": "Amy",
     "ingredients": {
       "Baby Tomatoes": 1,
       "Linguini": 1,
@@ -214,6 +228,7 @@
     }
   },
   "Roast Dinner": {
+    "user": "Amy",
     "ingredients": {
       "Roast Chicken Crown": 1,
       "Potatoes": 2,
@@ -227,6 +242,7 @@
     }
   },
   "Slow Cooker Chilli": {
+    "user": "Amy",
     "ingredients": {
       "Chilli Mix": 1,
       "Mince": 1,
@@ -242,18 +258,21 @@
     }
   },
   "Filled Pasta": {
+    "user": "Amy",
     "ingredients": {
       "Filled Pasta": 1,
       "Sauce": 1
     }
   },
   "Pizza and Garlic Bread": {
+    "user": "Amy",
     "ingredients": {
       "Pizza": 1,
       "Garlic Bread": 1
     }
   },
   "Chicken Pasta Bake": {
+    "user": "Amy",
     "ingredients": {
       "Chicken Breast": 2,
       "Pasta Sauce": 1,
@@ -267,6 +286,7 @@
     }
   },
   "Mexican Pilaf": {
+    "user": "Amy",
     "ingredients": {
       "Basmati Rice": 1,
       "Garlic": 1,
@@ -280,6 +300,7 @@
     }
   },
   "Leon Style Chicken Rice": {
+    "user": "Amy",
     "ingredients": {
       "Chicken Breast": 2,
       "Brown Rice": 1,
@@ -292,6 +313,7 @@
     }
   },
   "Dippy Eggs and Hoops": {
+    "user": "Amy",
     "ingredients": {
       "Eggs": 1,
       "Bread": 1,
@@ -299,6 +321,7 @@
     }
   },
   "Dippy Eggs and Beans": {
+    "user": "Amy",
     "ingredients": {
       "Eggs": 1,
       "Bread": 1,
@@ -306,12 +329,14 @@
     }
   },
   "Amy Lunch": {
+    "user": "Amy",
     "ingredients": {
       "Box Salad": 1,
       "Cooked Chicken": 1
     }
   },
   "Overnight Oats 1 Weeks Worth": {
+    "user": "Amy",
     "ingredients": {
       "Full Fat Greek Yoghurt": 3,
       "Berries": 1,
@@ -320,6 +345,7 @@
     }
   },
   "Staples": {
+    "user": "Amy",
     "ingredients": {
       "Bananas": 8,
       "Yoghurts Amy": 1,
@@ -330,6 +356,7 @@
     }
   },
   "Quorn Pittas": {
+    "user": "Amy",
     "ingredients": {
       "Pittas": 1,
       "Cucumber": 1,
@@ -341,7 +368,8 @@
       "Mayo": 1
     }
   },
-  "Chicken Sweetcorn Soup": {
+  "Chicken Sweetcorn Soup (BOL p109)": {
+    "user": "Amy",
     "ingredients": {
       "Chicken Breast": 2,
       "Sweetcorn": 4,
@@ -353,6 +381,7 @@
     }
   },
   "Tofu Stir Fry": {
+    "user": "Amy",
     "ingredients": {
       "Tofu": 1,
       "Stir Fry Noodles": 1,
@@ -361,6 +390,7 @@
     }
   },
   "Sweet and Sour Tofu": {
+    "user": "Amy",
     "ingredients": {
       "Tofu": 1,
       "Ketchup": 1,
@@ -377,6 +407,7 @@
     }
   },
   "Chicken Salad": {
+    "user": "Amy",
     "ingredients": {
       "Cucumber": 1,
       "Lettuce": 1,
@@ -389,6 +420,7 @@
     }
   },
   "Pancakes": {
+    "user": "Amy",
     "ingredients": {
       "Semi Skimmed Milk": 1,
       "Eggs": 1,
@@ -399,6 +431,7 @@
     }
   },
   "Thai Green Curry": {
+    "user": "Amy",
     "ingredients": {
       "Basmati Rice": 1,
       "Garlic": 1,
@@ -413,6 +446,7 @@
     }
   },
   "Korma": {
+    "user": "Amy",
     "ingredients": {
       "Basmati Rice": 1,
       "Garlic": 1,
@@ -428,11 +462,346 @@
     }
   },
   "Protein Balls": {
+    "user": "Amy",
     "ingredients": {
       "Cashew Butter": 1,
       "Honey": 1,
       "Oats": 1,
       "Protein Powder": 1
     }
+  },
+  "Homemade Pizzas": {
+    "user": "Amy",
+    "ingredients": {
+      "Pizza Mix": 1,
+      "Tinned Pineapple": 1,
+      "Ham Slices": 1, 
+      "Cheddar Cheese":1,
+      "Marinara Sauce":1 
+    }
+  },
+    "Greek Bowls": {
+    "user": "Amy",
+    "ingredients": {
+      "Cucumber": 1,
+      "Greek Yoghurt": 1,
+      "Mint": 1, 
+      "Chicken Breast": 2,
+      "Carrot":1, 
+      "Olives":1,  
+      "Feta":1,       
+      "Basmati Rice":1,             
+      "Baby Tomatoes":1,
+      "Avocado":1             
+    }
+  },
+    "Tofu Pad Thai": {
+    "user": "Amy",
+    "ingredients": {
+      "Tofu": 1,
+      "Eggs": 2,
+      "Rice Noodles": 1, 
+      "Red Pepper": 1,
+      "Bean Sprouts":1, 
+      "Peanuts":1,  
+      "Spring Onion":1,       
+      "Lime":1,             
+      "Peanut Butter":1,
+      "Soy Sauce":1,    
+      "Fish Sauce":1, 
+      "Brown Sugar":1,
+      "Rice Vinegar":1,
+      "Siracha":1,
+      "Garlic":1
+    }
+  },
+    "Spag Bol": {
+    "user": "Amy",
+    "ingredients": {
+      "Spaghetti": 1,
+      "Mince": 1,
+      "Tinned Tomatoes": 1, 
+      "Red Pepper": 1,
+      "Red Onion":1, 
+      "Carrot":1,  
+      "Tomato Puree":1      
+    }
+  },
+    "Lazy Chicken Stroganoff (BOL p168)": {
+    "user": "Amy",
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Dijon Mustard": 1,
+      "White Onion": 2, 
+      "Chicken Stock": 1,
+      "Tomato Puree":1, 
+      "Creme Fraiche":1,  
+      "Cornflour":1,       
+      "Basmati Rice":1                       
+    }
+  },
+    "Creamy Butternut Squash & Lemon Linguini (BOL p160)": {
+    "user": "Amy",
+    "ingredients": {
+      "Frozen Butternut Squash Cubes": 1,
+      "Garlic": 1,
+      "Lemon": 2, 
+      "Sage": 1,
+      "Linguini":1, 
+      "Double Cream":1         
+    }
+  },
+    "Honey BBQ Shredded Chicken Burgers (BOL p126)": {
+    "user": "Amy",
+    "ingredients": {
+      "Chicken Breast": 2,
+      "BBQ Sauce": 1,
+      "Honey": 1, 
+      "White Onion": 1,
+      "Worcestershire Sauce":1, 
+      "Burger Buns":1,  
+      "Pickles":1         
+    }
+  },
+    "Chicken & White Bean Chilli (BOL p123)": {
+    "user": "Amy",
+    "ingredients": {
+      "White Onion": 1,
+      "Cajun Seasoning": 1,
+      "Butter Beans": 1, 
+      "Chicken Breast": 2,
+      "Cream Cheese":1, 
+      "Nachos":1,  
+      "Lime":1,       
+      "Basmati Rice":1                        
+    }
+  },
+    "Loaded Vegetable Soup (BOL p110)": {
+    "user": "Amy",
+    "ingredients": {
+      "Leeks": 3,
+      "Celery Sticks": 3,
+      "Carrot": 4, 
+      "Garlic": 1,
+      "Broccoli":1, 
+      "Large Potatoes":3,  
+      "Chives":1                             
+    }
+  },
+    "Harissa & Chorizo Shakshuka (BOL p104)": {
+    "user": "Amy",
+    "ingredients": {
+      "Chorizo": 1,
+      "Tinned Tomatoes": 3,
+      "Harissa Paste": 1, 
+      "Shallot": 1,
+      "Parsley":1, 
+      "Eggs":4,  
+      "Naan Bread":1                     
+    }
+  },
+    "Spiced Sweet Potato & Halloumi Soup (BOL p86)": {
+    "user": "Amy",
+    "ingredients": {
+      "Sweet Potatoes": 2,
+      "Curry Powder": 1,
+      "White Onion": 1, 
+      "Carrot": 2,
+      "Garlic":1, 
+      "Halloumi":1                       
+    }
+  },
+    "Lamb Keema (BOL p47)": {
+    "user": "Amy",
+    "ingredients": {
+      "Lamb Mince": 1,
+      "White Onion": 1,
+      "Tinned Tomatoes": 1, 
+      "Rogan Josh Curry Paste": 1,
+      "Garlic and Ginger Paste":1, 
+      "Frozen Peas":1,  
+      "Basmati Rice":1                       
+    }
+  },
+    "Sticky Hoisin & Orange Chicken Legs (BOL p39)": {
+    "user": "Amy",
+    "ingredients": {
+      "Chicken Legs": 1,
+      "Hoisin Sauce": 1,
+      "Light Soy Sauce": 1, 
+      "Red Chilli": 1,
+      "Orange":1, 
+      "Garlic":1,  
+      "Basmati Rice":1,       
+      "Tenderstem Broccoli":1                        
+    }
+  },
+    "Honey and Siracha Chicken (BOL p24)": {
+    "user": "Amy",
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Siracha": 1,
+      "Honey": 1, 
+      "Lemon": 1,
+      "Garlic":1, 
+      "Dark Soy Sauce":1,  
+      "Rice Noodles":1,       
+      "Carrot":1,
+      "Spring Onion":1                        
+    }
+  },
+  "Chicken Potatoes and Veg in Peppercorn Sauce": {
+    "user": "Roi",
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Mushrooms": 1,
+      "White Onion": 1,
+      "Garlic": 1,
+      "Parmesan Cheese": 1,
+      "Double Cream": 1,
+      "Black Pepper": 1,
+      "Potatoes": 2,
+      "Carrot": 2,
+      "Green Beans": 1
+    }
+  },
+  "Taco Mince with Sweet Potato Wedges": {
+    "user": "Roi",
+    "ingredients": {
+      "Mince": 1,
+      "Garlic": 1,
+      "White Onion": 1,
+      "Taco Mix": 1,
+      "Oregano": 1,
+      "Tomato Puree": 1,
+      "Tinned Tomatoes": 1,
+      "Sweet Potato": 1,
+      "Cheddar Cheese": 1,
+      "Sour Cream": 1,
+      "Avocado": 1,
+      "Baby Tomatoes": 1
+    }
+  },
+  "Crispy Chilli Beef with Rice": {
+    "user": "Roi",
+    "ingredients": {
+      "Beef Strips": 1,
+      "Cornflour": 1,
+      "Sriracha Sauce": 1,
+      "Honey": 1,
+      "Soy Sauce": 1,
+      "Sesame Oil": 1,
+      "Rice Wine Vinegar": 1,
+      "Garlic": 1,
+      "Ginger Paste": 1,
+      "Basmati Rice": 1,
+      "Red Pepper": 1,
+      "White Onion": 1,
+      "Mushrooms": 1
+    }
+  },
+  "Crispy Chilli Chicken with Noodles": {
+    "user": "Roi",
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Cornflour": 1,
+      "Sriracha Sauce": 1,
+      "Honey": 1,
+      "Soy Sauce": 1,
+      "Sesame Oil": 1,
+      "Rice Wine Vinegar": 1,
+      "Garlic": 1,
+      "Ginger Paste": 1,
+      "Noodles": 1,
+      "Red Pepper": 1,
+      "White Onion": 1,
+      "Mushrooms": 1
+    }
+  },
+  "Beef Stew": {
+    "user": "Roi",
+    "ingredients": {
+      "Stewing Steak": 1,
+      "Leeks": 1,
+      "Carrot": 2,
+      "Potatoes": 2,
+      "Garlic": 1,
+      "White Onion": 1,
+      "Oxo Cube": 1,
+      "Crusty Bread": 1
+    }
+  },
+  "Chicken Noodle Stir Fry": {
+    "user": "Roi",
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Sesame Oil": 1,
+      "Honey": 1,
+      "Soy Sauce": 1,
+      "Sweet Chilli Sauce": 1,
+      "Noodles": 1,
+      "Mushrooms": 1,
+      "Spring Onion": 1,
+      "Red Pepper": 1,
+      "Sesame Seeds": 1
+    }
+  },
+  "Bolognaise": {
+    "user": "Roi",
+    "ingredients": {
+      "Mince": 1,
+      "Carrot": 2,
+      "White Onion": 1,
+      "Any Pasta": 1,
+      "Tinned Tomatoes": 3,
+      "Tomato Puree": 1,
+      "Oregano": 1,
+      "Basil": 1,
+      "Mixed Herbs": 1,
+      "Pancetta": 1,
+      "Red Wine": 1,
+      "Oxo Cube": 1,
+      "Garlic": 1,
+      "Garlic Bread": 1
+    }
+  },
+  "Pesto Chicken Pasta": {
+    "user": "Roi",
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Any Pasta": 1,
+      "Pesto": 1,
+      "Oregano": 1,
+      "Double Cream": 1,
+      "Parmesan Cheese": 1
+    }
+  },
+  "Pancetta Creamy Pasta": {
+    "user": "Roi",
+    "ingredients": {
+      "Pancetta": 1,
+      "Double Cream": 1,
+      "Black Pepper": 1,
+      "Parmesan Cheese": 1,
+      "Any Pasta": 1,
+      "Garlic": 1,
+      "Garlic Bread": 1
+    }
+  },
+  "Pepperoni Stuffed Chicken": {
+    "user": "Roi",
+    "ingredients": {
+      "Chicken Breast": 2,
+      "Pepperoni Slices": 1,
+      "Cheddar Cheese": 1,
+      "Potatoes": 2,
+      "Salad": 1,
+      "Paprika": 1,
+      "Onion Powder": 1,
+      "Garlic Granules": 1
+    }
   }
 }
+
+
+
