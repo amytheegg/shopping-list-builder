@@ -39,7 +39,6 @@ def generate_shopping_list(selected_meals, recipes, ingredients):
 
 def format_shopping_list(shopping_dict, ingredients):
     """Format shopping list as text with sections"""
-    # Define section order
     section_order = ['Fruit & Veg', 'Fridge', 'Dry Store', 'Freezer', 'Non-Consumables']
     
     output = "=== WEEKLY SHOPPING LIST ===\n\n"
@@ -47,7 +46,7 @@ def format_shopping_list(shopping_dict, ingredients):
     for section in section_order:
         if section in shopping_dict:
             output += f"--- {section.upper()} ---\n"
-            for ingredient, quantity in sorted(shopping_dict[section].items()):
+            for ingredient, quantity in sorted(shopping_dict[section].items(), key=lambda x: ingredients[x[0]].get('order', 999)):
                 if quantity == int(quantity):
                     quantity = int(quantity)
                 output += f"  • {ingredient}: {quantity}\n"
@@ -64,15 +63,35 @@ ingredients = load_ingredients()
 recipes = load_recipes()
 
 if not ingredients or not recipes:
-    st.error("⚠️ Missing data files! Please ensure ingredients.json and recipes.json are in the same folder.")
+    st.error("⚠️ Missing data files!")
     st.stop()
+
+# --- User filter ---
+USERS = ["All", "Amy", "Roi", "Hannah"]
+
+st.sidebar.header("👤 Whose recipes?")
+selected_user = st.sidebar.selectbox(
+    label="Show recipes for:",
+    options=USERS,
+    index=0,  # default to "All"
+    label_visibility="collapsed"
+)
+
+# Filter recipes by selected user
+if selected_user == "All":
+    filtered_recipes = recipes
+else:
+    filtered_recipes = {
+        name: data for name, data in recipes.items()
+        if data.get("user", "Amy") == selected_user
+    }
 
 # Sidebar for meal selection
 st.sidebar.header("📅 This Week's Meals")
-st.sidebar.markdown("Select the dinners you're planning:")
+st.sidebar.markdown("Select the meals you're planning:")
 
 selected_meals = []
-for recipe_name in sorted(recipes.keys()):
+for recipe_name in sorted(filtered_recipes.keys()):
     if st.sidebar.checkbox(recipe_name, key=recipe_name):
         selected_meals.append(recipe_name)
 
@@ -99,23 +118,22 @@ if selected_meals:
         with col1:
             st.subheader("📋 Your Shopping List")
             
-            # Display formatted list
             section_order = ['Fruit & Veg', 'Fridge', 'Dry Store', 'Freezer', 'Non-Consumables']
             
             for section in section_order:
                 if section in shopping_dict:
                     st.markdown(f"**{section}**")
-                    for ingredient, quantity in sorted(shopping_dict[section].items()):
+                    for ingredient, quantity in sorted(shopping_dict[section].items(), key=lambda x: ingredients[x[0]].get('order', 999)):
                         if quantity == int(quantity):
                             quantity = int(quantity)
                         st.markdown(f"  • {ingredient}: **{quantity}**")
                     st.markdown("")
         
         with col2:
-            st.subheader("📱 Copy to Phone")
+            st.subheader("Copy to Phone")
             text_output = format_shopping_list(shopping_dict, ingredients)
             st.text_area("Copy this text:", text_output, height=400)
-            st.caption("Copy the text above and paste into your phone's notes or messaging app")
+            st.caption("Copy the text above and paste into your phones notes")
     
 else:
     st.info("👈 Select meals from the sidebar to generate your shopping list")
@@ -123,7 +141,7 @@ else:
     # Show available recipes
     st.subheader("Available Recipes")
     recipe_cols = st.columns(3)
-    for idx, (recipe_name, recipe_data) in enumerate(sorted(recipes.items())):
+    for idx, (recipe_name, recipe_data) in enumerate(sorted(filtered_recipes.items())):
         with recipe_cols[idx % 3]:
             with st.expander(recipe_name):
                 st.markdown("**Ingredients:**")
@@ -132,4 +150,3 @@ else:
 
 # Footer
 st.markdown("---")
-st.caption("💡 Tip: You can edit `recipes.json` and `ingredients.json` to add your own meals and ingredients")
