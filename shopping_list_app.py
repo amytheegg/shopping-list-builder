@@ -63,7 +63,7 @@ ingredients = load_ingredients()
 recipes = load_recipes()
 
 if not ingredients or not recipes:
-    st.error("⚠️ Missing data files!")
+    st.error("⚠️ Missing data files! Please ensure ingredients.json and recipes.json are in the same folder.")
     st.stop()
 
 # --- User filter ---
@@ -117,23 +117,45 @@ if selected_meals:
         
         with col1:
             st.subheader("📋 Your Shopping List")
-            
+
+            # Track ticked items in session state
+            if 'ticked' not in st.session_state:
+                st.session_state.ticked = set()
+
+            col_reset, col_progress = st.columns([1, 2])
+            with col_reset:
+                if st.button("↺ Reset ticks"):
+                    st.session_state.ticked = set()
+                    st.rerun()
+
             section_order = ['Fruit & Veg', 'Fridge', 'Dry Store', 'Freezer', 'Non-Consumables']
-            
+            total_items = sum(len(shopping_dict[s]) for s in section_order if s in shopping_dict)
+            ticked_count = len(st.session_state.ticked)
+
+            with col_progress:
+                st.progress(ticked_count / total_items if total_items > 0 else 0,
+                            text=f"{ticked_count} of {total_items} done")
+
             for section in section_order:
                 if section in shopping_dict:
                     st.markdown(f"**{section}**")
                     for ingredient, quantity in sorted(shopping_dict[section].items(), key=lambda x: ingredients[x[0]].get('order', 999)):
                         if quantity == int(quantity):
                             quantity = int(quantity)
-                        st.markdown(f"  • {ingredient}: **{quantity}**")
+                        item_key = f"tick_{ingredient}"
+                        ticked = ingredient in st.session_state.ticked
+                        label = f"~~{ingredient}: {quantity}~~" if ticked else f"{ingredient}: **{quantity}**"
+                        if st.checkbox(label, value=ticked, key=item_key):
+                            st.session_state.ticked.add(ingredient)
+                        else:
+                            st.session_state.ticked.discard(ingredient)
                     st.markdown("")
         
         with col2:
-            st.subheader("Copy to Phone")
+            st.subheader("📱 Copy to Phone")
             text_output = format_shopping_list(shopping_dict, ingredients)
             st.text_area("Copy this text:", text_output, height=400)
-            st.caption("Copy the text above and paste into your phones notes")
+            st.caption("Copy the text above and paste into your phone's notes or messaging app")
     
 else:
     st.info("👈 Select meals from the sidebar to generate your shopping list")
