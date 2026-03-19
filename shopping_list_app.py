@@ -56,7 +56,7 @@ def format_shopping_list(shopping_dict, ingredients):
 
 # Main app
 st.title("🛒 Weekly Shopping List Builder")
-st.markdown("Select your meals for the week and generate your shopping list organized by shop section")
+st.markdown("Select your meals for the week and generate your shopping list organised by shop section")
 
 # Load data
 ingredients = load_ingredients()
