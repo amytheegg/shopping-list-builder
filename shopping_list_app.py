@@ -67,7 +67,7 @@ if not ingredients or not recipes:
     st.stop()
 
 # --- User filter ---
-USERS = ["All", "Amy", "Roi", "Hannah"]
+USERS = ["All", "Amy", "Roisin", "Hannah"]
 
 st.sidebar.header("👤 Whose recipes?")
 selected_user = st.sidebar.selectbox(
